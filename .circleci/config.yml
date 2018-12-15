@@ -7,7 +7,6 @@ jobs:
     docker:
     - image: bash
     steps:
-      - run: "echo 'テストビルド..'"
       - meigen-command/echo-meigen
 
 workflows:
