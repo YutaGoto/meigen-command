@@ -1,0 +1,9 @@
+version: 2.1
+description: 名言を表示してくれるものです
+
+commands:
+  echo-meigen:
+    description: 名言を出力
+    steps:
+      - run:
+        commands: "echo 'お金――手放すとき以外、何の役にも立たぬ恩恵物。 by A・ビアス'"

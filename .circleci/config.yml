@@ -1,0 +1,15 @@
+version: 2.1
+orbs:
+  meigen-command: yutagoto/meigen-command@dev:first
+
+jobs:
+  build:
+    docker:
+    - image: bash
+    steps:
+      - meigen-command/echo-meigen
+
+workflows:
+  main:
+    jobs:
+    - build
